@@ -32,7 +32,7 @@ const Features = () => {
   }, []);
 
   return (
-    <section className="h-full common-padding bg-zinc relative overflow-hidden">
+    <section className="h-full common-padding bg-zinc relative overflow-auto">
       <div className="screen-max-width">
         <div className="mb-12 w-full">
           <h1 id="features_title" className="section-heading">Explore the full story.</h1>
@@ -53,7 +53,7 @@ const Features = () => {
 
             <div className="flex flex-col w-full relative">
               <div className="feature-video-container">
-                <div className="overflow-hidden flex-1 h-[50vh]">
+                <div className="overflow-auto flex-1 h-[50vh]">
                   <img src={explore1Img} alt="titanium" className="feature-video g_grow" />
                 </div>
                 <div className="overflow-hidden flex-1 h-[50vh]">
